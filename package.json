@@ -1,0 +1,15 @@
+{
+  "name": "fis-parser-imweb-tpl",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords":["fis", "imwebtpl"],
+  "author": "",
+  "license": "ISC",
+  "readme": "ERROR: No README data found!",
+  "_id": "fis-parser-imweb-tpl@0.0.0",
+  "_shasum": "9c45a3191db875427b26e7215216dcfa2dbecced",
+  "_from": "fis-parser-imweb-tpl@"
+}
