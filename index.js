@@ -1,15 +1,10 @@
-/*
- * fis
- * http://fis.baidu.com/
- */
 
 'use strict';
 
 module.exports = function(content, file, conf){
     var EOL = '\n';
     function compileTmpl(tmpl) {
-        var res = []
-            , strict = (/\bit\b/).test(tmpl);
+        var res = [], strict = (/\bit\b/).test(tmpl);
         tmpl.replace(/<\/script>/ig, '</s<%=""%>cript>');
         res.push([
             "return function (it, opt) {",
@@ -34,5 +29,6 @@ module.exports = function(content, file, conf){
 
         return res.join('');
     }
+
     return compileTmpl(content);
 };

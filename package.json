@@ -1,15 +1,16 @@
 {
-  "name": "fis-parser-imweb-tpl",
-  "version": "0.0.1",
-  "main": "index.js",
-  "scripts": {
+    "name": "fis-parser-imweb-tpl",
+    "version": "0.0.2",
+    "main": "index.js",
+    "description": "test",
+    "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords":["fis", "imwebtpl"],
-  "author": "",
-  "license": "ISC",
-  "readme": "ERROR: No README data found!",
-  "_id": "fis-parser-imweb-tpl@0.0.0",
-  "_shasum": "9c45a3191db875427b26e7215216dcfa2dbecced",
-  "_from": "fis-parser-imweb-tpl@"
+    },
+    "keywords":["fis", "imwebtpl"],
+    "author": "",
+    "license": "ISC",
+    "repository": "https://github.com/ousiri/fia-command-dev",
+    "_id": "fis-parser-imweb-tpl@0.0.2",
+      "_shasum": "9c45a3191db875427b26e7215216dcfa2dbecced",
+      "_from": "fis-parser-imweb-tpl@"
 }
